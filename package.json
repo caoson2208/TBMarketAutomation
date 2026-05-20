@@ -1,0 +1,25 @@
+{
+  "name": "tbmarketautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "wallet:setup": "synpress wallet-setup",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@synthetixio/synpress": "^4.1.2",
+    "@types/node": "^25.9.1",
+    "dotenv": "^17.4.2",
+    "playwright": "^1.60.0",
+    "typescript": "^6.0.3"
+  }
+}
